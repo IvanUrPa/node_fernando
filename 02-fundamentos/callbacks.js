@@ -10,7 +10,7 @@ setTimeout(() =>{
 }, 3000);
 
 
-//
+// callback como parametro
 const getUsuarioByID = (id, callback) => {
     const user = {
         id,
