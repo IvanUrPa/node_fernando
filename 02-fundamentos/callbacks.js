@@ -1,16 +1,16 @@
-// Callback tradicional
+// * Callback tradicional
 setTimeout(function(){
     console.log('Hola Mundo')
 }, 1000);
 
 
-// Callback con función de flecha
+// * Callback con función de flecha
 setTimeout(() =>{
     console.log('Hola Mundo 2')
 }, 3000);
 
 
-// callback como parametro
+// * callback como parametro
 const getUsuarioByID = (id, callback) => {
     const user = {
         id,
